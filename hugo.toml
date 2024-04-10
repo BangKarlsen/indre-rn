@@ -41,11 +41,6 @@ title = "Indre ørn"
   URL = "#yoga-og-meditation"
   weight = 4
 
-  [[menu.header]]
-  name = "Kontakt"
-  URL = "#kontakt"
-  weight = 5
-
 
   [[menu.footer]]
   name = "Om mig"
@@ -62,15 +57,11 @@ title = "Indre ørn"
   URL = "#yoga-og-meditation"
   weight = 4
 
-  [[menu.footer]]
-  name = "Kontakt"
-  URL = "#kontakt"
-  weight = 5
-
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "testimonial", "contact", "newsletter"]
+  #sections = ["showcase", "yoga", "lydrejser", "meditationer", "om-mig", "erfaring", "uddannelse", "kontakt", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "testimonial"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
   homepageExperienceCount = 6
@@ -80,7 +71,7 @@ title = "Indre ørn"
     text2 = "ørn"
 
   [params.footer]
-      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "Baseret på Hugo(link) temaet Adritian (link). Tak ❤️"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
