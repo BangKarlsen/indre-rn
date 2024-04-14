@@ -8,10 +8,10 @@
 
 # Todo
 
-* make theme proper git submodule
+x make theme proper git submodule
 * ny font
 * nyt logo
-* billeder af mig
+x billeder af mig
 * skifte nederste firkanter ud med skyer?
 * farve i bund jordfarvet i stedet for sort
 * knapper runde
@@ -54,3 +54,20 @@ From @AlexChristache No.35
     Angelic descent (yellow)    #EECC33
     Tile Blue (light blue)      #0094A5
     Blue Depths (dark blue)     #2C3A64
+
+# Build and Deploy
+
+Uses Cloudflare pages (free dns and hosting)
+
+Build: `hugo`
+Deploy: `npx wrangler pages deploy public --project-name indre-rn`
+
+# Cloudflare setup
+
+Set custom domain for pages: https://dash.cloudflare.com/f2946c09eeb0880bf7adf2790c4ae2b8/pages/view/indre-rn/domains  -> xn--indrern-u1a.dk
+
+Must use non-ø version of domain. That creates a CNAME record, which points xn--indrern-u1a.dk -> indre-rn.pages.dev
+
+Note the DNS A record still points to one.com papskilt page. Not sure if that should be fixed? (when I get a VPS for sphae.re we can point it that instead)
+
+
