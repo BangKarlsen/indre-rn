@@ -68,6 +68,6 @@ Set custom domain for pages: https://dash.cloudflare.com/f2946c09eeb0880bf7adf27
 
 Must use non-ø version of domain. That creates a CNAME record, which points xn--indrern-u1a.dk -> indre-rn.pages.dev
 
-Note the DNS A record still points to one.com papskilt page. Not sure if that should be fixed? (when I get a VPS for sphae.re we can point it that instead)
+Using guide https://developers.cloudflare.com/pages/how-to/www-redirect/ but not working completely, still points to one.com but might be TTL thing.
 
 
