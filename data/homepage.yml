@@ -21,8 +21,8 @@ about:
   title: "Om mig"
   content: '<p class="lead">Jeg underviser i den blidere ende af Hatha og små flows, hvor vi bevæger os efter sansninger fra kroppen. Vi øver os i at mærke efter, og gå med de sansning, der opstår.
 Jeg ønsker at skabe ro og mere glæde i folk, og simpelthen gøre det lettere at være til i verden. Og til dét, er yogaen et fantastisk redskab.
-Hos mig er yoga både magisk og lavpraktisk - vi sanser og styrker kroppen, og den raffinerede kropsoplevelse og mobilitet gør på magisk vis at verden bliver rarere at være til stede i.</p><p>
-Jeg akkompagnerer yogaen med blide tryk og stille musik, som gør dig klar til at gå ud i verden med en ro inden i.</p>'
+Hos mig er yoga både magisk og lavpraktisk - vi sanser og styrker kroppen, og den raffinerede kropsoplevelse og mobilitet gør på magisk vis at verden bliver rarere at være til stede i.</p>
+<p class="lead">Jeg akkompagnerer yogaen med blide tryk og stille musik, som gør dig klar til at gå ud i verden med en ro inden i.</p>'
   image:
     x: "images/who-am-i/jesper.png"
     _2x: "images/who-am-i/jesper@2x.png"
