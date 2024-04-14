@@ -1,5 +1,6 @@
 # Notes
 
+Based off https://themes.gohugo.io/themes/adritian-free-hugo-theme/
 
 # Up And Running
  
