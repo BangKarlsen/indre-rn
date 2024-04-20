@@ -13,12 +13,12 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Kontakt"
-    URL: "https://www.adrianmoreno.info/"
+    URL: "mailto:jesper@sphae.re"
 
 # about
 about:
   enable: true
-  title: "Om mig"
+  title: "Yoga og meditation"
   content: '<p class="lead">Jeg underviser i den blidere ende af Hatha og små flows, hvor vi bevæger os efter sansninger fra kroppen. Vi øver os i at mærke efter, og gå med de sansning, der opstår.
 Jeg ønsker at skabe ro og mere glæde i folk, og simpelthen gøre det lettere at være til i verden. Og til dét, er yogaen et fantastisk redskab.
 Hos mig er yoga både magisk og lavpraktisk - vi sanser og styrker kroppen, og den raffinerede kropsoplevelse og mobilitet gør på magisk vis at verden bliver rarere at være til stede i.</p>
@@ -29,7 +29,7 @@ Hos mig er yoga både magisk og lavpraktisk - vi sanser og styrker kroppen, og d
 
 education:
   enable: true
-  title: "Yogastudier"
+  title: "Undervisning"
   items:
     - studio: "VITALIV.YOGA"
       year: "2022 - nu"
@@ -64,9 +64,18 @@ experience:
       teacher: "Simon Krohn"
       duration: "December 2014 (50 timer)"
         
+# lydrejser
+lydrejser:
+  enable: true
+  title: "Lydrejser"
+  content: '<p class="lead">Elektroniske og akustiske instrumenter skaber indre billeder og sansninger, som forløser følelser og stemninger gemt dybt inde i kroppen.</p> <p class="lead">Det er elektronisk organisk eksperimentelt musik. Kreativ bevidsthed som ånden bag maskinerne. I absolut nærvær leder jeg instrumenterne i bestemte retninger, jeg synes er interessante. Men det er et kæmpe parameterrum vi navigerer i. 100 dimensionalt. Langt mere komplekst end traditionel tid og rum. Og på den måde opstår der, hvad der vil opstå, netop i det øjeblik. Væk i det næste, men ekkoet ringer lidt endnu.</p>'
+  image:
+    x: "images/lydrejser/kuffert.png"
+    _2x: "images/lydrejser/kuffert@2x.png"
+
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Udtalelser"
   items:
     - name: "Bingo Bjørni"
