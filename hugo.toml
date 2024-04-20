@@ -13,8 +13,6 @@ title = "Indre ørn"
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
-  [[params.plugins.css]]
-  URL = "css/c.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -67,7 +65,6 @@ title = "Indre ørn"
   #sections = ["showcase", "about", "education", "experience", "testimonial"]
   sections = ["showcase", "about", "education", "experience", "lydrejser"]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
   homepageExperienceCount = 6
   
   [params.logo]
