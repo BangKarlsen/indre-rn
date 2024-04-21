@@ -13,6 +13,8 @@ title = "Indre ørn"
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
+  [[params.plugins.css]]
+  URL = "css/indre-rn.css"
 
   # JS Plugins
   [[params.plugins.js]]
