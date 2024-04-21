@@ -11,23 +11,23 @@ Based off https://themes.gohugo.io/themes/adritian-free-hugo-theme/
 
 x make theme proper git submodule
 * ny font
-* nyt logo
+x nyt logo
 x billeder af mig
-* skifte nederste firkanter ud med skyer?
+% skifte nederste firkanter ud med skyer?
 * farve i bund jordfarvet i stedet for sort
 * knapper runde
-* Ret bundtekst
+% Ret bundtekst
     - link til th
-* Ret menu
+x Ret menu
     - fjern Home
     - Yoga , Lydrejser , Meditationer , Om mig , Kontakt
-* uddannelse
+x uddannelse
     - anatomy
     - openflow
     - simon krohn
     - s.k. meditation
     - hands on faye
-* erfaring
+x erfaring
     - dalgas 2021-nu
         . blid hatha flow
         . hatha
@@ -55,6 +55,12 @@ From @AlexChristache No.35
     Angelic descent (yellow)    #EECC33
     Tile Blue (light blue)      #0094A5
     Blue Depths (dark blue)     #2C3A64
+
+Text color:
+
+html p.lead {
+    color: #4A4A4A;
+}
 
 # Build and Deploy
 
