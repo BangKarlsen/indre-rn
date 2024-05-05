@@ -73,6 +73,16 @@ lydrejser:
     x: "images/lydrejser/kuffert.png"
     _2x: "images/lydrejser/kuffert@2x.png"
 
+        
+# ceremonier
+ceremonier:
+  enable: true
+  title: "Ceremonier"
+  content: '<p class="lead">To gange om året, hvert forår og efterår, mødes vi i en weekend for at reflektere over den forgangne årstid, mærke efter, hvad der er i kroppen, og gøre klar til det kommende forår eller efterår.</p><p class="lead">Mere om, hvad vi laver, næste ceremoni, forrige ceremonier, osv.</p>'
+  image:
+    x: "images/ceremonier/kuffert.png"
+    _2x: "images/ceremonier/kuffert@2x.png"
+
 # testimonial
 testimonial:
   enable: false
