@@ -33,11 +33,11 @@ education:
   items:
     - studio: "VITALIV.YOGA"
       year: "2021 - nu"
-      teacher: "Blid Hatha, Restorative, Vinyasa, Lydrejser"
+      classes: "Blid Hatha, Restorative, Vinyasa, Lydrejser"
 
     - studio: "NOR:"
       year: "2021 - 2022"
-      teacher: "Hatha, Vinyasa / flow"
+      classes: "Hatha, Vinyasa / flow"
 
 experience:
   enable: true
