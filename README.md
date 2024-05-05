@@ -64,7 +64,9 @@ html p.lead {
 
 # Build and Deploy
 
-Uses Cloudflare pages (free dns and hosting)
+Local dev: `hugo server -D`
+
+Hosted on Cloudflare pages (free dns and hosting)
 
 Build: `hugo`
 Deploy: `npx wrangler pages deploy public --project-name indre-rn`
@@ -74,7 +76,4 @@ Deploy: `npx wrangler pages deploy public --project-name indre-rn`
 Set custom domain for pages: https://dash.cloudflare.com/f2946c09eeb0880bf7adf2790c4ae2b8/pages/view/indre-rn/domains  -> xn--indrern-u1a.dk
 
 Must use non-ø version of domain. That creates a CNAME record, which points xn--indrern-u1a.dk -> indre-rn.pages.dev
-
-Using guide https://developers.cloudflare.com/pages/how-to/www-redirect/ but not working completely, still points to one.com but might be TTL thing.
-
 
