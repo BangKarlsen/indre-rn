@@ -1,7 +1,11 @@
 {{ if .Site.Data.homepage.lydrejser.enable }}
-<section class="section rad-animation-group pb-0" id="lydrejser">
+<section class="section section--border-bottom rad-animation-group pb-0 " id="lydrejser">
   <div class="container rad-fade-down">
     <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>{{ .Site.Data.homepage.lydrejser.title }}</h2>
+        {{ .Site.Data.homepage.lydrejser.content | safeHTML }}
+      </div>
       <div class="about__profile-picture col-12 col-md-6">
         {{ $img := resources.Get .Site.Data.homepage.lydrejser.image.x }}
         {{ $img2x := resources.Get .Site.Data.homepage.lydrejser.image._2x }}      
@@ -13,18 +17,14 @@
           <img
             width="{{ $img.Width }}"
             height="{{ $img.Height }}"
-            class="lozad img-responsive image-left-overflow"
+            class="lozad img-responsive image-right-overflow"
             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
             srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
             data-src="{{ $img.RelPermalink }}"
             data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
-            alt="Billede af Jesper der smiler"
+            alt="Lydrejsekuffert"
           />
         </picture>
-      </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.lydrejser.title }}</h2>
-        {{ .Site.Data.homepage.lydrejser.content | safeHTML }}
       </div>
     </div>
   </div>
