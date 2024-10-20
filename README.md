@@ -4,7 +4,7 @@ Based off https://themes.gohugo.io/themes/adritian-free-hugo-theme/
 
 # Up And Running
  
- `huge server -D`
+ `hugo server -D`
 
 
 # Todo
@@ -38,6 +38,8 @@ x erfaring
 * kommende begivenheder
     - sverige ceremoni
     - lydrejse dalgas
+* Behandlinger
+    - Kommer snart!
 * Struktur:
   sections = ["showcase", "upcoming-events", "yoga", "lydrejser", "meditationer", "om-mig", "erfaring", "uddannelse", "kontakt", "newsletter"]
 * Colofon page? 
