@@ -26,8 +26,40 @@ From @AlexChristache No.35
     color: var(--color-dark-blue);
 }
 
+
+/* .alegreya-laks { */
+/*   font-family: "Alegreya", serif; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 600; */
+/*   font-style: normal; */
+/* } */
+
+/* .montserrat-laks { */
+/*   font-family: "Montserrat", sans-serif; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 200; 100 - 900 */
+/*   font-style: normal; */
+/* } */
+
+span.se-mig {
+    color: var(--color-light-blue);
+    font-family: "Dancing Script","Alegreya", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+
+.navbar-nav,
 .header .navbar-brand span:nth-child(2),
-.header .navbar-light .navbar-nav .nav-link,
 .lead {
     color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.btn-rounded {
+  border-radius: 16px;
 }
