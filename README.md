@@ -9,13 +9,17 @@ Based off https://themes.gohugo.io/themes/adritian-free-hugo-theme/
 
 # Todo
 
+* Split ud i sider
+* Kontakt i menuen -> side: Email, adresse/kort i s/h, tlf nummer?
+* små ikoner ved nav-link? Tegnet, organisk, shamanistisk.
+* Look: mere organisk, tegnet?
 x make theme proper git submodule
 * ny font
 x nyt logo
 x billeder af mig
 % skifte nederste firkanter ud med skyer?
 * farve i bund jordfarvet i stedet for sort
-* knapper runde
+x knapper runde
 % Ret bundtekst
     - link til th
 x Ret menu
