@@ -1,9 +1,9 @@
 # showcase
 showcase:
   enable: true
-  #title: "Indre ørn"
-  subtitle: "Jesper Højgaard"
-  description: "Lydrejser, yoga og meditation"
+  # title: "Indre ørn"
+  # subtitle: "Jesper Højgaard"
+  # description: "Lydrejser, yoga og meditation"
   image:
     x: "images/showcase/bw.png"
     _2x: "images/showcase/bw@2x.png"
