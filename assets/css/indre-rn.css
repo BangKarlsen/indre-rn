@@ -22,11 +22,6 @@ From @AlexChristache No.35
   --color-text: #4A4A4A;
 }
 
-.header .navbar-brand span:first-child {
-    color: var(--color-dark-blue);
-}
-
-
 /* .alegreya-laks { */
 /*   font-family: "Alegreya", serif; */
 /*   font-optical-sizing: auto; */
@@ -49,6 +44,9 @@ span.se-mig {
     font-weight: 600;
 }
 
+.header .navbar-brand span:first-child {
+    color: var(--color-dark-blue);
+}
 
 .navbar-nav,
 .header .navbar-brand span:nth-child(2),
@@ -58,6 +56,13 @@ span.se-mig {
     font-style: normal;
     font-optical-sizing: auto;
     font-weight: 400;
+}
+
+#nav-items .nav-item .nav-link {
+    color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .btn-rounded {
