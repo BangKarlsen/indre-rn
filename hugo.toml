@@ -29,8 +29,8 @@ title = "Indre ørn"
 [menu]
 
   [[menu.header]]
-  name = "Yoga og meditation"
-  URL = "#yoga-og-meditation"
+  name = "Yoga"
+  URL = "#yoga"
   weight = 2
 
   [[menu.header]]
@@ -45,7 +45,7 @@ title = "Indre ørn"
 
 
   [[menu.footer]]
-  name = "Yoga og meditation"
+  name = "Yoga"
   URL = "#yoga-og-meditation"
   weight = 2
   
@@ -71,7 +71,7 @@ title = "Indre ørn"
     text2 = "ørn"
 
   [params.footer]
-      copyright = "Baseret på Hugo-temaet Adritian. Tak ❤️"
+      copyright = "Baseret på Hugo-temaet Adritian"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

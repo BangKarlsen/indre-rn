@@ -1,8 +1,8 @@
 # showcase
 showcase:
   enable: true
-  # title: "Indre ørn"
-  # subtitle: "Jesper Højgaard"
+  title: "Indre ørn"
+  subtitle: "Din vej til frihed!"
   # description: "Lydrejser, yoga og meditation"
   image:
     x: "images/showcase/bw.png"
@@ -15,10 +15,10 @@ showcase:
     btnText: "Kontakt"
     URL: "mailto:jesper@sphae.re"
 
-# about
+# Yoga
 about:
   enable: true
-  title: "Yoga og meditation"
+  title: "Yoga"
   content: '<p class="lead">Jeg underviser i den blidere ende af Hatha og små flows, hvor vi bevæger os efter sansninger fra kroppen. Vi øver os i at mærke efter, og gå med de sansning, der opstår.
 Jeg ønsker at skabe ro og mere glæde i folk, og simpelthen gøre det lettere at være til i verden. Og til dét, er yogaen et fantastisk redskab.
 Hos mig er yoga både magisk og lavpraktisk - vi sanser og styrker kroppen, og den raffinerede kropsoplevelse og mobilitet gør på magisk vis at verden bliver rarere at være til stede i.</p>
