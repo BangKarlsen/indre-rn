@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "Indre ørn"
-  subtitle: "Kropterapi"
+  subtitle: "Kropsterapi mm."
   # description: "Lydrejser, yoga og meditation"
   image:
     x: "images/showcase/bw.png"

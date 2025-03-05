@@ -29,6 +29,11 @@ title = "Indre Ørn"
 [menu]
 
   [[menu.header]]
+  name = "Kropsterapi"
+  URL = "/kropsterapi"
+  weight = 1
+
+  [[menu.header]]
   name = "Yoga"
   URL = "#yoga"
   weight = 2
