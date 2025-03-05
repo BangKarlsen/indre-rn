@@ -2,5 +2,3 @@
 #themes/adritian-free-hugo-theme
 resources
 
-# Publishing using wrangler cli so no need to commit public/
-public/*

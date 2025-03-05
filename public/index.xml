@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indre Ørn</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Indre Ørn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da-DK</language>
+    <lastBuildDate>Mon, 13 Apr 2020 16:13:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kropsterapi</title>
+      <link>http://localhost:1313/kropsterapi/</link>
+      <pubDate>Mon, 13 Apr 2020 16:13:37 +0100</pubDate>
+      <guid>http://localhost:1313/kropsterapi/</guid>
+      <description>CONTENT. Måske&#xA;03-04 21:24:44.651 +0100 Rebuilt in 1077 ms&#xA;Change detected, rebuilding site (#11). 2025-03-04 21:33:30.627 +0100 Template added /_default/kropsterapi.html Total in 15 ms&#xA;Change detected, rebuilding site (#12). 2025-03-04 21:33:58.127 +0100 Asset changed /css/indre-rn.css Total in 2160 ms&#xA;Change detected, rebuilding site (#13). 2025-03-04 21:35:08.130 +0100 Source changed /kropsterapi.md WARN found no layout file for &amp;ldquo;html&amp;rdquo; for kind &amp;ldquo;page&amp;rdquo;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+    </item>
+  </channel>
+</rss>
