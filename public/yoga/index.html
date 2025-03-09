@@ -13,9 +13,14 @@
 
     <style data-generator="critical-css"></style>
 
-    <link rel="stylesheet" href="/css/indre-rn.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/custom.css" />
+    <link
+      rel="preload"
+      href="/css/bundle.css"
+      as="style"
+      data-generator="purgeCSS"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="/css/bundle.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,7 +53,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a data-scroll class="nav-link" href="/#yoga">YOGA</a>
+                  <a data-scroll class="nav-link" href="/yoga">YOGA</a>
                 </li>
 
                 <li class="nav-item">
@@ -70,70 +75,34 @@
         <li class="breadcrum-item">
           <span><a href="/">Forside</a></span>
         </li>
-        <li class="breadcrum-item current">Kropsterapi</li>
+        <li class="breadcrum-item current">Yoga</li>
       </ul>
     </section>
+    
 
-    <section class="rad-single rad-animation-group rad-fade-down">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-            <p class="lead"></p>
-            <p>CONTENT. Måske</p>
-            <p>03-04 21:24:44.651 +0100 Rebuilt in 1077 ms</p>
-            <p>
-              Change detected, rebuilding site (#11). 2025-03-04 21:33:30.627 +0100 Template added
-              /_default/kropsterapi.html Total in 15 ms
-            </p>
-            <p>
-              Change detected, rebuilding site (#12). 2025-03-04 21:33:58.127 +0100 Asset changed /css/indre-rn.css
-              Total in 2160 ms
-            </p>
-            <p>
-              Change detected, rebuilding site (#13). 2025-03-04 21:35:08.130 +0100 Source changed /kropsterapi.md WARN
-              found no layout file for &ldquo;html&rdquo; for kind &ldquo;page&rdquo;: You should create a template file
-              which matches Hugo Layouts Lookup Rules for this combination. Total in 1599 ms
-            </p>
-            <p>
-              Change detected, rebuilding site (#14). 2025-03-04 21:35:25.129 +0100 Source changed /kropsterapi.md WARN
-              found no layout file for &ldquo;html&rdquo; for kind &ldquo;page&rdquo;: You should create a template file
-              which matches Hugo Layouts Lookup Rules for this combination. Total in 995 ms
-            </p>
-            <p>
-              Change detected, rebuilding site (#15). 2025-03-04 21:37:42.129 +0100 Source changed /kropsterapi.md WARN
-              found no layout file for &ldquo;html&rdquo; for kind &ldquo;page&rdquo;: You should create a template file
-              which matches Hugo Layouts Lookup Rules for this combination. Total in 10 ms
-            </p>
-            <p>
-              Change detected, rebuilding site (#16). 2025-03-04 21:38:43.630 +0100 Template changed
-              /_default/kropsterapi.html Template added /_default/single.html Total in 11 ms
-            </p>
-            <hr />
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Indsæt section med content her -->
+
 
     <footer class="footer">
       <div class="container">
         <div class="footer__left">
-          <div class="footer__copy">Baseret på Hugo-temaet Adritian</div>
+          <div class="footer__copy">Be love.</div>
         </div>
-        <div class="footer__links">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/#yoga">YOGA</a>
-            </li>
+        <!-- <div class="footer__links"> -->
+        <!--   <ul class="navbar-nav"> -->
+        <!--     <li class="nav-item"> -->
+        <!--       <a class="nav-link" href="/#yoga">YOGA</a> -->
+        <!--     </li> -->
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#lydrejser">LYDREJSER</a>
-            </li>
+        <!--     <li class="nav-item"> -->
+        <!--       <a class="nav-link" href="/#lydrejser">LYDREJSER</a> -->
+        <!--     </li> -->
 
-            <li class="nav-item">
-              <a class="nav-link" href="/#ceremonier">CEREMONIER</a>
-            </li>
-          </ul>
-        </div>
+        <!--     <li class="nav-item"> -->
+        <!--       <a class="nav-link" href="/#ceremonier">CEREMONIER</a> -->
+        <!--     </li> -->
+        <!--   </ul> -->
+        <!-- </div> -->
         <div class="footer__right"></div>
       </div>
     </footer>
