@@ -1,0 +1,122 @@
+/* ørn her */
+/*
+ 
+From @AlexChristache No.35
+
+    Glacial Ice (white)         #EAE9E7
+    Chocolat (dark brown)       #782A2E
+    Sunset Sienna (light brown) #B64D3C
+    Angelic descent (yellow)    #EECC33
+    Tile Blue (light blue)      #0094A5
+    Blue Depths (dark blue)     #2C3A64
+
+*/
+
+:root {
+  --color-white: #EAE9E7;
+  --color-dark-brown: #782A2E;
+  --color-light-brown: #B64D3C;
+  --color-yellow: #EECC33;
+  --color-another-blue: #3ca4b6e3;
+  --color-light-blue: #0094A5;
+  --color-dark-blue: #2C3A64;
+  --color-text: #4A4A4A;
+}
+
+/* .alegreya-laks { */
+/*   font-family: "Alegreya", serif; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 600; */
+/*   font-style: normal; */
+/* } */
+
+/* .montserrat-laks { */
+/*   font-family: "Montserrat", sans-serif; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 200; 100 - 900 */
+/*   font-style: normal; */
+/* } */
+
+.coiny-regular {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1.display-1 {
+    font-family: "Darumadrop One", sans-serif;
+  /* font-family: "Coiny", system-ui; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 98px;
+    color: var(--color-text);
+    /* font-family: "Playfair Display", serif; */
+    /* font-style: normal; */
+    /* font-optical-sizing: auto; */
+    /* font-weight: 400; */
+}
+
+span.se-mig {
+    color: var(--color-light-brown);
+    font-family: "Dancing Script","Alegreya", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    /* font-weight: 400; */
+
+}
+
+.header .navbar-brand span:first-child {
+    color: var(--color-dark-blue);
+}
+
+.navbar-nav,
+.header .navbar-brand span:nth-child(2),
+.lead {
+    color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#nav-items .nav-item .nav-link {
+    color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btn-rounded {
+  border-radius: 16px;
+}
+
+
+/* single page header */
+.rad-single {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: -20px;
+    padding-top: 80px;
+}
+
+footer.footer {
+    background: white;
+}

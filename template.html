@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/livereload.js?mindelay=10&v=2&port=1313&path=livereload" data-no-instant defer></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#478079" />
+
+    <title>INDRE ØRN kropsterapi</title>
+    <meta name="description" content="Indre Ørn Kropsterapi v. Jesper Højgaard. Alt er godt." />
+
+    <!-- <link rel="stylesheet" href="/css/indre-rn.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/main.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/custom.css" /> -->
+
+    {{ css }}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=Bagel+Fat+One&family=Cherry+Bomb+One&family=Chicle&family=Coiny&family=Dancing+Script:wght@500&family=Darumadrop+One&family=Oi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ranchers&family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+<body class="home">
+
+  {{ header }}
+  
+  <!-- BEGIN CONTENT -->
+
+  {{ content }}
+    
+  <!-- END CONTENT -->
+  
+  {{ footer }}
+
+    <script src="/js/lozad.min.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        var observer = window.lozad('.lozad', {
+          rootMargin: window.innerHeight / 2 + 'px 0px',
+          threshold: 0.01,
+        });
+        observer.observe();
+      });
+    </script>
+    <script defer src="/js/rad-animations.js"></script>
+    <script defer src="/js/smooth-scroll.polyfills.min.js"></script>
+    <script defer src="/js/sticky-header.js"></script>
+    <script defer src="/js/smooth-scroll-init.js"></script>
+    <script defer src="/js/bootstrap.min.js"></script>
+</body>
+</html>
+
