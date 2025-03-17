@@ -78,7 +78,7 @@ span.se-mig {
     font-weight: 600;
 }
 
-h2 {
+h2, h3 {
     color: var(--color-text);
     font-family: "Playfair Display", serif;
     font-style: normal;
@@ -91,6 +91,7 @@ h2 {
     color: var(--color-dark-blue);
 }
 
+p,
 .navbar-nav,
 .header .navbar-brand span:nth-child(2),
 .lead {
