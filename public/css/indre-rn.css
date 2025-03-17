@@ -43,6 +43,18 @@ From @AlexChristache No.35
   font-style: normal;
 }
 
+body:has(.rad-showcase) .navbar-brand {
+    display: none;
+}
+
+
+.navbar-light a.navbar-brand {
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: var(--color-light-brown);
+}
 
 h1.display-1 {
     font-family: "Darumadrop One", sans-serif;
