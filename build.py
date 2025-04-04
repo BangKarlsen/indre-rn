@@ -5,19 +5,23 @@ import shutil
 # Define file paths
 HEADER_FILE = "header.html"
 FOOTER_FILE = "footer.html"
+TEMPLATE_FILE = "template.html"
 CONTENT_DIR = "content"
-OUTPUT_DIR = "public"
+DRAFTS_DIR = os.path.join(CONTENT_DIR, "drafts")  # Directory to ignore
 CSS_DIR = "css"  # Source CSS directory
 JS_DIR = "js"  # Source JS directory
+IMAGES_DIR = "images"  # Source Images directory
+OUTPUT_DIR = "public"
+
 OUTPUT_CSS_DIR = os.path.join(OUTPUT_DIR, "css")  # Destination CSS directory
 OUTPUT_JS_DIR = os.path.join(OUTPUT_DIR, "js")  # Destination JS directory
-TEMPLATE_FILE = "template.html"
-DRAFTS_DIR = os.path.join(CONTENT_DIR, "drafts")  # Directory to ignore
+OUTPUT_IMAGES_DIR = os.path.join(OUTPUT_DIR, "images")
 
-# Ensure output and CSS/JS directories exist
+# Ensure output and CSS/JS/IMAGES directories exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(OUTPUT_CSS_DIR, exist_ok=True)
 os.makedirs(OUTPUT_JS_DIR, exist_ok=True)
+os.makedirs(OUTPUT_IMAGES_DIR, exist_ok=True)
 
 # Copy CSS files to output directory and generate <link> tags
 css_links = ""
@@ -44,6 +48,15 @@ if os.path.exists(JS_DIR):
         shutil.copy2(src_path, dest_path)  # Copy while preserving metadata
         print(f"Copied JS: {js_file}")
         js_scripts += f'<script src="/js/{js_file}"></script>\n'
+
+# Copy image files (any common image format)
+if os.path.exists(IMAGES_DIR):
+    for file in os.listdir(IMAGES_DIR):
+        if file.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp")):
+            src_path = os.path.join(IMAGES_DIR, file)
+            dest_path = os.path.join(OUTPUT_IMAGES_DIR, file)
+            shutil.copy2(src_path, dest_path)
+            print(f"Copied image: {file}")
 
 # Read template, header, and footer
 with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
