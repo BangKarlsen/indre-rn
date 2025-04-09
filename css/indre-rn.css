@@ -56,7 +56,7 @@ body:has(.rad-showcase) .navbar-brand {
   color: var(--color-light-brown);
 }
 
-h1.display-1 {
+.rad-showcase .container h1.display-1 {
     font-family: "Darumadrop One", sans-serif;
   /* font-family: "Coiny", system-ui; */
   font-weight: 400;
@@ -69,12 +69,12 @@ h1.display-1 {
     /* font-weight: 400; */
 }
 
-span.se-mig {
+span.subtitle {
     color: var(--color-light-brown);
     font-family: "Dancing Script","Alegreya", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
-    font-size: 58px;
+    font-size: 52px;
     font-weight: 600;
 }
 
