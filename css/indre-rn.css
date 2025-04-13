@@ -87,6 +87,23 @@ h2, h3 {
 
 }
 
+blockquote {
+    color: var(--color-light-brown);
+    font-family: "Dancing Script","Alegreya", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section li {
+    color: var(--color-text);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
 .header .navbar-brand span:first-child {
     color: var(--color-dark-blue);
 }
