@@ -1,4 +1,4 @@
 .hugo_build.lock
 #themes/adritian-free-hugo-theme
 resources
-public
+#public
