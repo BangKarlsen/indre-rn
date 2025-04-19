@@ -7,7 +7,7 @@ HEADER_FILE = "header.html"
 FOOTER_FILE = "footer.html"
 TEMPLATE_FILE = "template.html"
 CONTENT_DIR = "content"
-DRAFTS_DIR = os.path.join(CONTENT_DIR, "drafts")  # Directory to ignore
+DRAFTS_DIR = "drafts"  # Directory to ignore
 CSS_DIR = "css"  # Source CSS directory
 JS_DIR = "js"  # Source JS directory
 IMAGES_DIR = "images"  # Source Images directory
@@ -51,12 +51,22 @@ if os.path.exists(JS_DIR):
 
 # Copy image files (any common image format)
 if os.path.exists(IMAGES_DIR):
-    for file in os.listdir(IMAGES_DIR):
-        if file.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp")):
-            src_path = os.path.join(IMAGES_DIR, file)
-            dest_path = os.path.join(OUTPUT_IMAGES_DIR, file)
-            shutil.copy2(src_path, dest_path)
-            print(f"Copied image: {file}")
+    for root, _, files in os.walk(IMAGES_DIR):
+        if root.startswith(IMAGES_DIR + '/' + DRAFTS_DIR):  # Skip drafts directory
+            print(f'Skipped {root}')
+            continue
+
+        for file in files:
+            if file.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp")):
+                src_path = os.path.join(root, file)
+                relative_path = os.path.relpath(src_path, IMAGES_DIR)
+                dest_path = os.path.join(OUTPUT_IMAGES_DIR, relative_path)
+
+                # Ensure destination subdirectory exists
+                os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+
+                shutil.copy2(src_path, dest_path)
+                print(f"Copied image: {relative_path}")
 
 # Read template, header, and footer
 with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
@@ -70,7 +80,8 @@ with open(FOOTER_FILE, "r", encoding="utf-8") as f:
 
 # Process each file inside CONTENT (excluding drafts/)
 for root, _, files in os.walk(CONTENT_DIR):
-    if root.startswith(DRAFTS_DIR):  # Skip drafts directory
+    if root.startswith(CONTENT_DIR + '/' + DRAFTS_DIR):  # Skip drafts directory
+        print(f'Skipped {root}')
         continue
 
     for file in files:
