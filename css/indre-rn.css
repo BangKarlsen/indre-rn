@@ -69,13 +69,14 @@ body:has(.rad-showcase) .navbar-brand {
     /* font-weight: 400; */
 }
 
-span.subtitle {
+.subtitle {
     color: var(--color-light-brown);
     font-family: "Dancing Script","Alegreya", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
     font-size: 52px;
     font-weight: 600;
+    margin-bottom: 24px;
 }
 
 h2, h3 {
@@ -84,6 +85,7 @@ h2, h3 {
     font-style: normal;
     font-optical-sizing: auto;
     /* font-weight: 400; */
+    margin-bottom: 24px;
 
 }
 
