@@ -11,11 +11,14 @@ From @AlexChristache No.35
     Blue Depths (dark blue)     #2C3A64
 
 */
-
+/*
+#4a2f1a, #5b3a22 
+ *
+ * */
 :root {
   --color-white: #EAE9E7;
-  --color-dark-brown: #782A2E;
-  --color-light-brown: #B64D3C;
+  --color-dark-brown: #4a2f1a;
+  --color-light-brown: #5b3a22;
   --color-yellow: #EECC33;
   --color-another-blue: #3ca4b6e3;
   --color-light-blue: #0094A5;
@@ -42,7 +45,7 @@ body:has(.rad-showcase) .navbar-brand {
   /* font-weight: 400; */
   /* font-style: normal; */
   /* font-size: 98px; */
-  color: var(--color-text);
+  color: var(--color-dark-brown);
 }
 
 .subtitle {
