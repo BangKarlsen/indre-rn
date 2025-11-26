@@ -20,7 +20,7 @@ From @AlexChristache No.35
   --color-another-blue: #3ca4b6e3;
   --color-light-blue: #0094A5;
   --color-dark-blue: #2C3A64;
-  --color-text: #4A4A4A;
+  --color-text: #2f2f2f;
 }
 
 
@@ -30,7 +30,7 @@ body:has(.rad-showcase) .navbar-brand {
 
 
 .navbar-light a.navbar-brand {
-  font-family: "Darumadrop One", sans-serif;
+  font-family: 'Lilita One', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
@@ -55,16 +55,28 @@ body:has(.rad-showcase) .navbar-brand {
     margin-bottom: 24px;
 }
 
+h1, h2, h3 {
+  font-family: 'Lilita One', sans-serif;
+  color: #4a2f1a;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.4em;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2f2f2f;
+  line-height: 1.65;
+}
+
+/*
 h2, h3 {
     color: var(--color-text);
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-optical-sizing: auto;
-    /* font-weight: 400; */
     margin-bottom: 24px;
 
 }
-
+*/
 blockquote {
     color: var(--color-light-brown);
     font-family: "Dancing Script","Alegreya", sans-serif;
@@ -76,7 +88,7 @@ blockquote {
 
 .section li {
     color: var(--color-text);
-    font-family: "Playfair Display", serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -90,8 +102,9 @@ p,
 .navbar-nav,
 .header .navbar-brand span:nth-child(2),
 .lead {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.65;
     color: var(--color-text);
-    font-family: "Playfair Display", serif;
     font-style: normal;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -99,7 +112,7 @@ p,
 
 #nav-items .nav-item .nav-link {
     color: var(--color-text);
-    font-family: "Playfair Display", serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
 }
