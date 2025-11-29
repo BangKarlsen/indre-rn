@@ -40,6 +40,11 @@ body:has(.rad-showcase) .navbar-brand {
   color: var(--color-light-brown);
 }
 
+div.container-fluid:has(.navbar-brand) {
+  padding-left: 0px;
+}
+
+
 .rad-showcase .container h1.title {
   font-family: "Lilita One", serif;
   /* font-weight: 400; */
