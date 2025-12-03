@@ -31,13 +31,14 @@ body:has(.rad-showcase) .navbar-brand {
     display: none;
 }
 
-
+/* make logo-text align in wide mode */
 .navbar-light a.navbar-brand {
-  font-family: 'Lilita One', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 28px;
-  color: var(--color-light-brown);
+  margin-top: 5px;
+}
+
+/* Move burger down to align with logo-text in mobile mode */
+.header .navbar-toggler:not(.nav-link) {
+  top: 3px;
 }
 
 div.container-fluid:has(.navbar-brand) {
