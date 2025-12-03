@@ -12,6 +12,7 @@ From @AlexChristache No.35
 
 */
 /*
+ Browns to match eagle colors
 #4a2f1a, #5b3a22 
  *
  * */
@@ -54,6 +55,15 @@ div.container-fluid:has(.navbar-brand) {
   color: var(--color-dark-brown);
 }
 
+@media (max-width: 767px) {
+    .rad-showcase .container h1.title {
+      display: none;
+    }
+    .subtitle {
+      display: none;
+    }
+}
+
 .subtitle {
     color: var(--color-light-brown);
     font-family: "Dancing Script","Alegreya", sans-serif;
@@ -66,26 +76,17 @@ div.container-fluid:has(.navbar-brand) {
 
 h1, h2, h3 {
   font-family: 'Lilita One', sans-serif;
-  color: #4a2f1a;
+  color: var(--color-dark-brown);
   letter-spacing: 0.01em;
   margin-bottom: 0.4em;
 }
+
 body {
   font-family: 'Lato', sans-serif;
-  color: #2f2f2f;
+  color: var(--color-text);
   line-height: 1.65;
 }
 
-/*
-h2, h3 {
-    color: var(--color-text);
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-optical-sizing: auto;
-    margin-bottom: 24px;
-
-}
-*/
 blockquote {
     color: var(--color-light-brown);
     font-family: "Dancing Script","Alegreya", sans-serif;
