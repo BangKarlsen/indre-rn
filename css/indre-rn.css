@@ -46,6 +46,21 @@ div.container-fluid:has(.navbar-brand) {
   padding-left: 0px;
 }
 
+/* mobile view */
+@media (max-width: 767px) {
+    .title {
+      display: none;
+    }
+    .subtitle {
+      display: none;
+    }
+
+    /* move eagle up */
+    .profile-image img{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+}
 
 .rad-showcase .container h1.title {
   font-family: "Lilita One", serif;
@@ -53,15 +68,6 @@ div.container-fluid:has(.navbar-brand) {
   /* font-style: normal; */
   /* font-size: 98px; */
   color: var(--color-dark-brown);
-}
-
-@media (max-width: 767px) {
-    .rad-showcase .container h1.title {
-      display: none;
-    }
-    .subtitle {
-      display: none;
-    }
 }
 
 .subtitle {
@@ -130,6 +136,7 @@ p,
 .btn-rounded {
   border-radius: 16px;
 }
+
 
 
 /* single page header */
