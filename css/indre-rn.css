@@ -1,21 +1,11 @@
-/* ørn her */
+/* ørn her.
+ * Overwrites amain.css because of specificity and aming (a* -> c*)*/
 /*
- 
-From @AlexChristache No.35
 
-    Glacial Ice (white)         #EAE9E7
-    Chocolat (dark brown)       #782A2E
-    Sunset Sienna (light brown) #B64D3C
-    Angelic descent (yellow)    #EECC33
-    Tile Blue (light blue)      #0094A5
-    Blue Depths (dark blue)     #2C3A64
-
-*/
-/*
  Browns to match eagle colors
-#4a2f1a, #5b3a22 
- *
- * */
+  #4a2f1a, #5b3a22 
+ 
+*/
 :root {
   --color-white: #EAE9E7;
   --color-dark-brown: #4a2f1a;
@@ -46,7 +36,7 @@ div.container-fluid:has(.navbar-brand) {
   padding-left: 0px;
 }
 
-/* mobile view */
+/* mobile view fixes */
 @media (max-width: 767px) {
     .title {
       display: none;
@@ -59,6 +49,11 @@ div.container-fluid:has(.navbar-brand) {
     .profile-image img{
         margin-top: 0px;
         margin-bottom: 40px;
+    }
+
+    /* move about image up */
+    .about__profile-picture {
+        margin-top: -80px;
     }
 }
 
