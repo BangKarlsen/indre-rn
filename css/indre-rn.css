@@ -53,7 +53,8 @@ div.container-fluid:has(.navbar-brand) {
 
     /* move about image up */
     .about__profile-picture {
-        margin-top: -80px;
+        margin-top: -120px;
+        margin-bottom: -40px;
     }
 }
 
