@@ -51,6 +51,18 @@ body:has(.rad-showcase) .navbar-brand {
     }
 }
 
+/* Book page: map + quote. On mobile the map is stacked above the text. */
+.book-map iframe {
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .book-map {
+        margin-bottom: 30px;
+    }
+}
+
 /* The burger is absolutely positioned on mobile, so without the logo the
    header collapses to just its padding and the burger hangs outside it. */
 @media (max-width: 991px) {
