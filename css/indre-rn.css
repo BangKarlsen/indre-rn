@@ -51,7 +51,7 @@ body:has(.rad-showcase) .navbar-brand {
     }
 }
 
-/* Book page: map + quote. On mobile the map is stacked above the text. */
+/* Book page: map + quote. On mobile the map is stacked below the text. */
 .book-map iframe {
     display: block;
     max-width: 100%;
@@ -59,7 +59,7 @@ body:has(.rad-showcase) .navbar-brand {
 
 @media (max-width: 767px) {
     .book-map {
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 
