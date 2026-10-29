@@ -22,6 +22,14 @@ body:has(.rad-showcase) .navbar-brand {
     display: none;
 }
 
+/* The burger is absolutely positioned on mobile, so without the logo the
+   header collapses to just its padding and the burger hangs outside it. */
+@media (max-width: 991px) {
+    body:has(.rad-showcase) .header .navbar {
+        min-height: 50px;
+    }
+}
+
 /* make logo-text align in wide mode */
 .navbar-light a.navbar-brand {
   margin-top: 5px;
