@@ -22,6 +22,35 @@ body:has(.rad-showcase) .navbar-brand {
     display: none;
 }
 
+/* Mobile menu slide. The panel stays rendered (instead of display: none) so
+   it can animate; visibility keeps the hidden links out of tab order. */
+@media (max-width: 991px) {
+    .header .navbar-collapse {
+        overflow: hidden;
+        transition: max-height 0.35s ease, opacity 0.35s ease, margin-top 0.35s ease, visibility 0s linear 0s;
+    }
+    .header .navbar-collapse.collapse:not(.show) {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0;
+        margin-top: 0;
+        transition-delay: 0s, 0s, 0s, 0.35s;
+    }
+    .header .navbar-collapse.collapse.show {
+        opacity: 1;
+        max-height: min(24rem, calc(100vh - 123px));
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 991px) and (prefers-reduced-motion: reduce) {
+    .header .navbar-collapse,
+    .header .navbar-collapse.collapse:not(.show) {
+        transition: none;
+    }
+}
+
 /* The burger is absolutely positioned on mobile, so without the logo the
    header collapses to just its padding and the burger hangs outside it. */
 @media (max-width: 991px) {
