@@ -68,6 +68,11 @@ if os.path.exists(IMAGES_DIR):
                 shutil.copy2(src_path, dest_path)
                 print(f"Copied image: {relative_path}")
 
+# Copy favicon to the site root
+if os.path.exists("favicon.ico"):
+    shutil.copy2("favicon.ico", os.path.join(OUTPUT_DIR, "favicon.ico"))
+    print("Copied favicon.ico")
+
 # Read template, header, and footer
 with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
     template = f.read()
