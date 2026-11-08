@@ -1,0 +1,24 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+[
+  {
+    "label": "Build Indre Ørn page",
+    "command": "python3 build.py",
+    // What to do with the terminal pane and tab, after the command had finished:
+    // * `never` — Do nothing when the command finishes (default)
+    // * `always` — always hide the terminal tab, hide the pane also if it was the last tab in it
+    // * `on_success` — hide the terminal tab on task success only, otherwise behaves similar to `always`
+    "hide": "never",
+    // Which edited buffers to save before running the task:
+    // * `all` — save all edited buffers
+    // * `current` — save currently active buffer only
+    // * `none` — don't save any buffers
+    "save": "current"
+  },
+  {
+    "label": "Serve Indre Ørn page",
+    "command": "python3 -m http.server --directory public 8000",
+    "hide": "never",
+    // Serving a static site doesn't depend on unsaved buffers.
+    "save": "none"
+  }
+]
