@@ -13,6 +13,6 @@ To build the site, which is very simple, use:
 Run: 
 
 ```sh
-python3 -m http.server 8000
+python3 -m http.server --directory public 8000
 ```
 or similar.
