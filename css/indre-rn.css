@@ -58,6 +58,15 @@ body:has(.rad-showcase) .navbar-brand {
     flex-wrap: wrap;
 }
 
+/* Education list on the Om mig page */
+.education-intro {
+    margin-bottom: 16px;
+}
+
+.education-list {
+    margin-bottom: 24px;
+}
+
 .member-logo {
     display: block;
     width: 240px;
