@@ -51,6 +51,30 @@ body:has(.rad-showcase) .navbar-brand {
     }
 }
 
+/* Membership logo on the Om mig page */
+.member-of {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.member-logo {
+    display: block;
+    width: 240px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.5rem;
+    transform: translateY(-1.5px);
+}
+
+a.member-logo-link,
+a.member-logo-link:hover {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* Links that open in a new tab get a small arrow. The empty alt text after
    the slash keeps screen readers from announcing the glyph. */
 .link-external::after {
